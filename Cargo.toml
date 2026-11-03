@@ -1,0 +1,11 @@
+[package]
+name = "avatar-pipeline-gaming"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = "1"
+
+[[bin]]
+name = "avatar-pipeline"
+path = "src/main.rs"

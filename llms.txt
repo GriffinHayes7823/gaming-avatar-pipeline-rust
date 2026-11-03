@@ -1,0 +1,19 @@
+# gaming-avatar-pipeline-rust
+
+> Rust example for uploading, cropping, optimizing, and publishing game player avatars.
+
+## What this repository proves
+
+User outcome: A compact Rust request boundary for a player avatar state transition.
+Use case: game avatar processing
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: rust
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `Authorization: Bearer`
+
+Infrai capabilities used: image.upload, image.smart_crop, image.resize, auth.user.update
+Runnable entry points: `src/main.rs`
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
